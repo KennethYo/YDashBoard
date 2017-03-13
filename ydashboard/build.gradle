@@ -32,8 +32,8 @@ ext.DESCRIPTION = "device info library"
 ext.GROUP = "me.kennethyo.library"
 ext.ARTIFACT_ID = "ydashboard"
 
-ext.VERSION_NAME = "1.1"
-ext.VERSION_DESCRIPTION = "delete support library"
+ext.VERSION_NAME = "1.1.1"
+ext.VERSION_DESCRIPTION = "fix NullPointerException"
 
 ext.SCM_URL = "https://github.com/KennethYo/YDashBoard"
 ext.SCM_ISSUE_URL = "https://github.com/KennethYo/YDashBoard/issues"
