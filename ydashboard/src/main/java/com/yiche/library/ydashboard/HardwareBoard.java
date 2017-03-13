@@ -161,7 +161,9 @@ public final class HardwareBoard {
     String result = "unknown";
     ConnectivityManager cm =
         (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-
+    if(cm==null){
+      return "unknown";
+    }
     NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
     if (activeNetwork == null) {
       result = "unknown";
